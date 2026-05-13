@@ -58,4 +58,15 @@ i18n
     },
   });
 
+const RTL_LANGUAGES = ["ar"];
+
+function updateDocumentDirection(lng: string) {
+  const dir = RTL_LANGUAGES.includes(lng) ? "rtl" : "ltr";
+  document.documentElement.setAttribute("dir", dir);
+  document.documentElement.setAttribute("lang", lng);
+}
+
+i18n.on("languageChanged", updateDocumentDirection);
+updateDocumentDirection(i18n.language);
+
 export default i18n;
