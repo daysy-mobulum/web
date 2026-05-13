@@ -44,6 +44,7 @@ vi.mock("react-i18next", () => ({
     i18n: { language: "en", changeLanguage: vi.fn() },
   }),
   Trans: ({ children }: { children: React.ReactNode }) => children,
+  initReactI18next: { type: "3rdParty", init: vi.fn() },
 }));
 
 function renderWithRouter(initialRoute = "/") {
