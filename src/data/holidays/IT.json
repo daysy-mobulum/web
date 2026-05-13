@@ -1,0 +1,13 @@
+[
+  { "name": "Capodanno", "month": 1, "day": 1 },
+  { "name": "Epifania", "month": 1, "day": 6 },
+  { "name": "Pasquetta", "dates": ["2025-04-21", "2026-04-06", "2027-03-29", "2028-04-17", "2029-04-02", "2030-04-22", "2031-04-14", "2032-03-29", "2033-04-18", "2034-04-10", "2035-03-26", "2036-04-14"] },
+  { "name": "Festa della Liberazione", "month": 4, "day": 25 },
+  { "name": "Festa dei Lavoratori", "month": 5, "day": 1 },
+  { "name": "Festa della Repubblica", "month": 6, "day": 2 },
+  { "name": "Ferragosto", "month": 8, "day": 15 },
+  { "name": "Tutti i Santi", "month": 11, "day": 1 },
+  { "name": "Immacolata Concezione", "month": 12, "day": 8 },
+  { "name": "Natale", "month": 12, "day": 25 },
+  { "name": "Santo Stefano", "month": 12, "day": 26 }
+]

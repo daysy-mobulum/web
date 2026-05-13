@@ -1,0 +1,15 @@
+[
+  { "name": "New Year's Day", "month": 1, "day": 1 },
+  { "name": "Good Friday", "dates": ["2025-04-18", "2026-04-03", "2027-03-26", "2028-04-14", "2029-03-30", "2030-04-19", "2031-04-11", "2032-03-26", "2033-04-15", "2034-04-07", "2035-03-23", "2036-04-11"] },
+  { "name": "Easter Monday", "dates": ["2025-04-21", "2026-04-06", "2027-03-29", "2028-04-17", "2029-04-02", "2030-04-22", "2031-04-14", "2032-03-29", "2033-04-18", "2034-04-10", "2035-03-26", "2036-04-14"] },
+  { "name": "Labour Day", "month": 5, "day": 1 },
+  { "name": "Liberation Day", "month": 5, "day": 8 },
+  { "name": "Saints Cyril and Methodius Day", "month": 7, "day": 5 },
+  { "name": "Jan Hus Day", "month": 7, "day": 6 },
+  { "name": "Statehood Day", "month": 9, "day": 28 },
+  { "name": "Independent Czechoslovak State Day", "month": 10, "day": 28 },
+  { "name": "Struggle for Freedom and Democracy Day", "month": 11, "day": 17 },
+  { "name": "Christmas Eve", "month": 12, "day": 24 },
+  { "name": "Christmas Day", "month": 12, "day": 25 },
+  { "name": "Second Day of Christmas", "month": 12, "day": 26 }
+]

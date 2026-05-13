@@ -1,0 +1,14 @@
+[
+  { "name": "New Year's Day", "month": 1, "day": 1 },
+  { "name": "Christmas Day (Orthodox)", "month": 12, "day": 25 },
+  { "name": "International Women's Day", "month": 3, "day": 8 },
+  { "name": "Labour Day", "month": 5, "day": 1 },
+  { "name": "Victory Day over Nazism", "month": 5, "day": 8 },
+  { "name": "Constitution Day", "month": 6, "day": 28 },
+  { "name": "Ukrainian Statehood Day", "month": 7, "day": 15 },
+  { "name": "Independence Day", "month": 8, "day": 24 },
+  { "name": "Defenders' Day", "month": 10, "day": 1 },
+  { "name": "Christmas Day", "month": 12, "day": 25 },
+  { "name": "Easter Sunday", "dates": ["2025-04-20", "2026-04-12", "2027-05-02", "2028-04-16", "2029-04-08", "2030-04-28", "2031-04-13", "2032-05-02", "2033-04-24", "2034-04-09", "2035-04-29", "2036-04-20"] },
+  { "name": "Whit Sunday", "dates": ["2025-06-08", "2026-05-31", "2027-06-20", "2028-06-04", "2029-05-27", "2030-06-16", "2031-06-01", "2032-06-20", "2033-06-12", "2034-05-28", "2035-06-17", "2036-06-08"] }
+]
