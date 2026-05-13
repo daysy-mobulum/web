@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "Events",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "home": {
+    "title": "My Events",
+    "noEvents": "No events yet. Add your first event!",
+    "today": "Today!",
+    "daysLeft_one": "{{count}} day left",
+    "daysLeft_other": "{{count}} days left",
+    "addEvent": "Add Event",
+    "filterByTag": "Filter by tag",
+    "allTags": "All",
+    "editEvent": "Edit",
+    "deleteEvent": "Delete",
+    "confirmDelete": "Are you sure you want to delete this event?"
+  },
+  "event": {
+    "name": "Event name",
+    "date": "Date",
+    "time": "Time (optional)",
+    "recurrence": "Recurrence",
+    "recurrenceOptions": {
+      "none": "Does not repeat",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
+    "comment": "Comment (optional)",
+    "tags": "Tags",
+    "save": "Save",
+    "cancel": "Cancel",
+    "addTag": "Add new tag",
+    "createTag": "Create tag"
+  },
+  "onboarding": {
+    "welcome": "Welcome to Daysy!",
+    "subtitle": "Let's set up your preferences",
+    "country": "Country",
+    "countryHint": "Select your country for default holidays",
+    "language": "Language",
+    "timezone": "Timezone",
+    "loadDefaults": "Load default holidays for my country",
+    "loadDefaultsHint": "You can always remove them later",
+    "next": "Next",
+    "back": "Back",
+    "finish": "Finish",
+    "skip": "Skip"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "appearanceOptions": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "locale": "Locale",
+    "country": "Country",
+    "language": "Language",
+    "timezone": "Timezone",
+    "tags": "Tags",
+    "manageTags": "Manage Tags",
+    "addTag": "Add Tag",
+    "deleteTag": "Delete",
+    "dataManagement": "Data Management",
+    "exportData": "Export Data",
+    "importData": "Import Data",
+    "importSuccess": "Data imported successfully!",
+    "importError": "Failed to import data. Invalid file format.",
+    "dangerZone": "Danger Zone",
+    "deleteAll": "Delete All Data",
+    "deleteAllConfirm": "This will permanently delete all your events, tags, and settings. This action cannot be undone.",
+    "deleteAllButton": "Delete Everything"
+  },
+  "about": {
+    "title": "About Daysy",
+    "description": "Daysy is a free, privacy-first event countdown tracker that helps you keep track of important dates and holidays.",
+    "problem": "What problem does it solve?",
+    "problemText": "Keeping track of upcoming holidays, anniversaries, and important dates across different countries can be challenging. Daysy provides a simple, beautiful countdown view so you never miss what matters.",
+    "free": "Completely Free",
+    "freeText": "Daysy is free to use with no ads, no subscriptions, and no hidden costs.",
+    "privacy": "100% Private",
+    "privacyText": "Your data never leaves your browser. No tracking, no analytics, no cookies, no server. Everything is stored locally on your device.",
+    "openSource": "Open Source",
+    "openSourceText": "The source code is publicly available on GitHub. You can inspect, modify, and contribute.",
+    "support": "Support the Project",
+    "supportText": "If you find Daysy useful, consider supporting its development:"
+  },
+  "countryChange": {
+    "title": "Country Changed",
+    "message": "You've changed your country. Your existing events will be kept.",
+    "loadDefaults": "Would you like to add default holidays for the new country?",
+    "changeLanguage": "Would you like to change the language?",
+    "keepLanguage": "Keep current language",
+    "confirm": "Confirm"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

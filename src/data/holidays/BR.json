@@ -1,0 +1,14 @@
+[
+  { "name": "Confraternização Universal", "month": 1, "day": 1 },
+  { "name": "Carnaval", "dates": ["2025-03-04", "2026-02-17", "2027-02-09", "2028-02-29", "2029-02-13", "2030-03-05", "2031-02-25", "2032-02-10", "2033-02-01", "2034-02-21", "2035-02-06", "2036-02-26"] },
+  { "name": "Sexta-feira Santa", "dates": ["2025-04-18", "2026-04-03", "2027-03-26", "2028-04-14", "2029-03-30", "2030-04-19", "2031-04-11", "2032-03-26", "2033-04-15", "2034-04-07", "2035-03-23", "2036-04-11"] },
+  { "name": "Tiradentes", "month": 4, "day": 21 },
+  { "name": "Dia do Trabalhador", "month": 5, "day": 1 },
+  { "name": "Corpus Christi", "dates": ["2025-06-19", "2026-06-04", "2027-05-27", "2028-06-15", "2029-05-31", "2030-06-20", "2031-06-12", "2032-05-27", "2033-06-16", "2034-06-08", "2035-05-24", "2036-06-12"] },
+  { "name": "Independência do Brasil", "month": 9, "day": 7 },
+  { "name": "Nossa Senhora Aparecida", "month": 10, "day": 12 },
+  { "name": "Finados", "month": 11, "day": 2 },
+  { "name": "Proclamação da República", "month": 11, "day": 15 },
+  { "name": "Consciência Negra", "month": 11, "day": 20 },
+  { "name": "Natal", "month": 12, "day": 25 }
+]

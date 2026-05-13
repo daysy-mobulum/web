@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "events": "Wydarzenia",
+    "settings": "Ustawienia",
+    "about": "O aplikacji"
+  },
+  "home": {
+    "title": "Moje wydarzenia",
+    "noEvents": "Brak wydarzeń. Dodaj swoje pierwsze wydarzenie!",
+    "today": "Dziś!",
+    "daysLeft_one": "Pozostał {{count}} dzień",
+    "daysLeft_few": "Pozostały {{count}} dni",
+    "daysLeft_many": "Pozostało {{count}} dni",
+    "daysLeft_other": "Pozostało {{count}} dni",
+    "addEvent": "Dodaj wydarzenie",
+    "filterByTag": "Filtruj po tagu",
+    "allTags": "Wszystkie",
+    "editEvent": "Edytuj",
+    "deleteEvent": "Usuń",
+    "confirmDelete": "Czy na pewno chcesz usunąć to wydarzenie?"
+  },
+  "event": {
+    "name": "Nazwa wydarzenia",
+    "date": "Data",
+    "time": "Godzina (opcjonalnie)",
+    "recurrence": "Powtarzanie",
+    "recurrenceOptions": {
+      "none": "Nie powtarza się",
+      "weekly": "Co tydzień",
+      "monthly": "Co miesiąc",
+      "yearly": "Co rok"
+    },
+    "comment": "Komentarz (opcjonalnie)",
+    "tags": "Tagi",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "addTag": "Dodaj nowy tag",
+    "createTag": "Utwórz tag"
+  },
+  "onboarding": {
+    "welcome": "Witaj w Daysy!",
+    "subtitle": "Skonfigurujmy Twoje preferencje",
+    "country": "Kraj",
+    "countryHint": "Wybierz kraj, aby załadować domyślne święta",
+    "language": "Język",
+    "timezone": "Strefa czasowa",
+    "loadDefaults": "Załaduj domyślne święta dla mojego kraju",
+    "loadDefaultsHint": "Zawsze możesz je później usunąć",
+    "next": "Dalej",
+    "back": "Wstecz",
+    "finish": "Zakończ",
+    "skip": "Pomiń"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "appearance": "Wygląd",
+    "appearanceOptions": {
+      "light": "Jasny",
+      "dark": "Ciemny",
+      "system": "Systemowy"
+    },
+    "locale": "Lokalizacja",
+    "country": "Kraj",
+    "language": "Język",
+    "timezone": "Strefa czasowa",
+    "tags": "Tagi",
+    "manageTags": "Zarządzaj tagami",
+    "addTag": "Dodaj tag",
+    "deleteTag": "Usuń",
+    "dataManagement": "Zarządzanie danymi",
+    "exportData": "Eksportuj dane",
+    "importData": "Importuj dane",
+    "importSuccess": "Dane zaimportowane pomyślnie!",
+    "importError": "Nie udało się zaimportować danych. Nieprawidłowy format pliku.",
+    "dangerZone": "Strefa zagrożenia",
+    "deleteAll": "Usuń wszystkie dane",
+    "deleteAllConfirm": "Spowoduje to trwałe usunięcie wszystkich wydarzeń, tagów i ustawień. Tej operacji nie można cofnąć.",
+    "deleteAllButton": "Usuń wszystko"
+  },
+  "about": {
+    "title": "O Daysy",
+    "description": "Daysy to darmowy, prywatny licznik odliczający dni do wydarzeń, który pomaga śledzić ważne daty i święta.",
+    "problem": "Jaki problem rozwiązuje?",
+    "problemText": "Śledzenie nadchodzących świąt, rocznic i ważnych dat w różnych krajach może być trudne. Daysy oferuje prosty, piękny widok odliczania, dzięki któremu nigdy nie przegapisz tego, co ważne.",
+    "free": "Całkowicie darmowy",
+    "freeText": "Daysy jest darmowy, bez reklam, subskrypcji i ukrytych kosztów.",
+    "privacy": "100% prywatny",
+    "privacyText": "Twoje dane nigdy nie opuszczają przeglądarki. Bez śledzenia, bez analityki, bez ciasteczek, bez serwera. Wszystko jest przechowywane lokalnie na Twoim urządzeniu.",
+    "openSource": "Otwarty kod źródłowy",
+    "openSourceText": "Kod źródłowy jest publicznie dostępny na GitHubie. Możesz go przeglądać, modyfikować i współtworzyć.",
+    "support": "Wesprzyj projekt",
+    "supportText": "Jeśli Daysy jest dla Ciebie przydatne, rozważ wsparcie jego rozwoju:"
+  },
+  "countryChange": {
+    "title": "Zmieniono kraj",
+    "message": "Zmieniono kraj. Twoje istniejące wydarzenia zostaną zachowane.",
+    "loadDefaults": "Czy chcesz dodać domyślne święta dla nowego kraju?",
+    "changeLanguage": "Czy chcesz zmienić język?",
+    "keepLanguage": "Zachowaj obecny język",
+    "confirm": "Potwierdź"
+  },
+  "common": {
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "confirm": "Potwierdź",
+    "yes": "Tak",
+    "no": "Nie"
+  }
+}

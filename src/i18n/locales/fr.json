@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "Événements",
+    "settings": "Paramètres",
+    "about": "À propos"
+  },
+  "home": {
+    "title": "Mes événements",
+    "noEvents": "Aucun événement. Ajoutez votre premier événement !",
+    "today": "Aujourd'hui !",
+    "daysLeft_one": "{{count}} jour restant",
+    "daysLeft_other": "{{count}} jours restants",
+    "addEvent": "Ajouter un événement",
+    "filterByTag": "Filtrer par tag",
+    "allTags": "Tous",
+    "editEvent": "Modifier",
+    "deleteEvent": "Supprimer",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet événement ?"
+  },
+  "event": {
+    "name": "Nom de l'événement",
+    "date": "Date",
+    "time": "Heure (facultatif)",
+    "recurrence": "Récurrence",
+    "recurrenceOptions": {
+      "none": "Ne se répète pas",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "yearly": "Annuel"
+    },
+    "comment": "Commentaire (facultatif)",
+    "tags": "Tags",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "addTag": "Ajouter un nouveau tag",
+    "createTag": "Créer un tag"
+  },
+  "onboarding": {
+    "welcome": "Bienvenue sur Daysy !",
+    "subtitle": "Configurons vos préférences",
+    "country": "Pays",
+    "countryHint": "Sélectionnez votre pays pour les jours fériés par défaut",
+    "language": "Langue",
+    "timezone": "Fuseau horaire",
+    "loadDefaults": "Charger les jours fériés par défaut pour mon pays",
+    "loadDefaultsHint": "Vous pourrez toujours les supprimer plus tard",
+    "next": "Suivant",
+    "back": "Retour",
+    "finish": "Terminer",
+    "skip": "Passer"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "appearance": "Apparence",
+    "appearanceOptions": {
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    },
+    "locale": "Locale",
+    "country": "Pays",
+    "language": "Langue",
+    "timezone": "Fuseau horaire",
+    "tags": "Tags",
+    "manageTags": "Gérer les tags",
+    "addTag": "Ajouter un tag",
+    "deleteTag": "Supprimer",
+    "dataManagement": "Gestion des données",
+    "exportData": "Exporter les données",
+    "importData": "Importer les données",
+    "importSuccess": "Données importées avec succès !",
+    "importError": "Échec de l'importation. Format de fichier invalide.",
+    "dangerZone": "Zone de danger",
+    "deleteAll": "Supprimer toutes les données",
+    "deleteAllConfirm": "Cela supprimera définitivement tous vos événements, tags et paramètres. Cette action est irréversible.",
+    "deleteAllButton": "Tout supprimer"
+  },
+  "about": {
+    "title": "À propos de Daysy",
+    "description": "Daysy est un compteur à rebours gratuit et respectueux de la vie privée qui vous aide à suivre les dates importantes et les jours fériés.",
+    "problem": "Quel problème résout-il ?",
+    "problemText": "Suivre les jours fériés, anniversaires et dates importantes dans différents pays peut être difficile. Daysy offre une vue de compte à rebours simple et élégante pour ne jamais manquer ce qui compte.",
+    "free": "Entièrement gratuit",
+    "freeText": "Daysy est gratuit, sans publicités, sans abonnements et sans frais cachés.",
+    "privacy": "100% privé",
+    "privacyText": "Vos données ne quittent jamais votre navigateur. Pas de suivi, pas d'analyses, pas de cookies, pas de serveur. Tout est stocké localement sur votre appareil.",
+    "openSource": "Open Source",
+    "openSourceText": "Le code source est disponible publiquement sur GitHub. Vous pouvez l'inspecter, le modifier et y contribuer.",
+    "support": "Soutenir le projet",
+    "supportText": "Si Daysy vous est utile, pensez à soutenir son développement :"
+  },
+  "countryChange": {
+    "title": "Pays modifié",
+    "message": "Vous avez changé de pays. Vos événements existants seront conservés.",
+    "loadDefaults": "Souhaitez-vous ajouter les jours fériés par défaut pour le nouveau pays ?",
+    "changeLanguage": "Souhaitez-vous changer la langue ?",
+    "keepLanguage": "Garder la langue actuelle",
+    "confirm": "Confirmer"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  { "name": "Año Nuevo", "month": 1, "day": 1 },
+  { "name": "Viernes Santo", "dates": ["2025-04-18", "2026-04-03", "2027-03-26", "2028-04-14", "2029-03-30", "2030-04-19", "2031-04-11", "2032-03-26", "2033-04-15", "2034-04-07", "2035-03-23", "2036-04-11"] },
+  { "name": "Sábado Santo", "dates": ["2025-04-19", "2026-04-04", "2027-03-27", "2028-04-15", "2029-03-31", "2030-04-20", "2031-04-12", "2032-03-27", "2033-04-16", "2034-04-08", "2035-03-24", "2036-04-12"] },
+  { "name": "Día del Trabajo", "month": 5, "day": 1 },
+  { "name": "Día de las Glorias Navales", "month": 5, "day": 21 },
+  { "name": "Día Nacional de los Pueblos Indígenas", "dates": ["2025-06-20", "2026-06-21", "2027-06-21", "2028-06-20", "2029-06-20", "2030-06-21", "2031-06-21", "2032-06-20", "2033-06-20", "2034-06-21", "2035-06-21", "2036-06-20"] },
+  { "name": "San Pedro y San Pablo", "month": 6, "day": 29 },
+  { "name": "Día de la Virgen del Carmen", "month": 7, "day": 16 },
+  { "name": "Asunción de la Virgen", "month": 8, "day": 15 },
+  { "name": "Independencia Nacional", "month": 9, "day": 18 },
+  { "name": "Día de las Glorias del Ejército", "month": 9, "day": 19 },
+  { "name": "Día del Encuentro de Dos Mundos", "month": 10, "day": 12 },
+  { "name": "Día de las Iglesias Evangélicas y Protestantes", "month": 10, "day": 31 },
+  { "name": "Día de Todos los Santos", "month": 11, "day": 1 },
+  { "name": "Inmaculada Concepción", "month": 12, "day": 8 },
+  { "name": "Navidad", "month": 12, "day": 25 }
+]

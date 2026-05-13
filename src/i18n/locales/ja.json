@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "events": "イベント",
+    "settings": "設定",
+    "about": "について"
+  },
+  "home": {
+    "title": "マイイベント",
+    "noEvents": "イベントがありません。最初のイベントを追加しましょう！",
+    "today": "今日！",
+    "daysLeft_other": "残り{{count}}日",
+    "addEvent": "イベントを追加",
+    "filterByTag": "タグでフィルター",
+    "allTags": "すべて",
+    "editEvent": "編集",
+    "deleteEvent": "削除",
+    "confirmDelete": "このイベントを削除してもよろしいですか？"
+  },
+  "event": {
+    "name": "イベント名",
+    "date": "日付",
+    "time": "時間（任意）",
+    "recurrence": "繰り返し",
+    "recurrenceOptions": {
+      "none": "繰り返しなし",
+      "weekly": "毎週",
+      "monthly": "毎月",
+      "yearly": "毎年"
+    },
+    "comment": "コメント（任意）",
+    "tags": "タグ",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "addTag": "新しいタグを追加",
+    "createTag": "タグを作成"
+  },
+  "onboarding": {
+    "welcome": "Daysyへようこそ！",
+    "subtitle": "設定を行いましょう",
+    "country": "国",
+    "countryHint": "デフォルトの祝日を設定するために国を選択してください",
+    "language": "言語",
+    "timezone": "タイムゾーン",
+    "loadDefaults": "自分の国のデフォルト祝日を読み込む",
+    "loadDefaultsHint": "後からいつでも削除できます",
+    "next": "次へ",
+    "back": "戻る",
+    "finish": "完了",
+    "skip": "スキップ"
+  },
+  "settings": {
+    "title": "設定",
+    "appearance": "外観",
+    "appearanceOptions": {
+      "light": "ライト",
+      "dark": "ダーク",
+      "system": "システム"
+    },
+    "locale": "ロケール",
+    "country": "国",
+    "language": "言語",
+    "timezone": "タイムゾーン",
+    "tags": "タグ",
+    "manageTags": "タグを管理",
+    "addTag": "タグを追加",
+    "deleteTag": "削除",
+    "dataManagement": "データ管理",
+    "exportData": "データをエクスポート",
+    "importData": "データをインポート",
+    "importSuccess": "データのインポートに成功しました！",
+    "importError": "データのインポートに失敗しました。無効なファイル形式です。",
+    "dangerZone": "危険ゾーン",
+    "deleteAll": "すべてのデータを削除",
+    "deleteAllConfirm": "すべてのイベント、タグ、設定が完全に削除されます。この操作は元に戻せません。",
+    "deleteAllButton": "すべて削除"
+  },
+  "about": {
+    "title": "Daysyについて",
+    "description": "Daysyは、重要な日付や祝日を追跡するための無料でプライバシー重視のイベントカウントダウントラッカーです。",
+    "problem": "どんな問題を解決しますか？",
+    "problemText": "さまざまな国の祝日、記念日、重要な日付を追跡するのは大変です。Daysyはシンプルで美しいカウントダウン表示を提供し、大切な日を見逃しません。",
+    "free": "完全無料",
+    "freeText": "Daysyは広告なし、サブスクリプションなし、隠れたコストなしで無料で使えます。",
+    "privacy": "100%プライベート",
+    "privacyText": "データがブラウザの外に出ることはありません。トラッキング、分析、Cookie、サーバーは一切ありません。すべてデバイスにローカル保存されます。",
+    "openSource": "オープンソース",
+    "openSourceText": "ソースコードはGitHubで公開されています。閲覧、修正、貢献が可能です。",
+    "support": "プロジェクトを支援",
+    "supportText": "Daysyが役に立つと思ったら、開発の支援をご検討ください："
+  },
+  "countryChange": {
+    "title": "国が変更されました",
+    "message": "国を変更しました。既存のイベントは保持されます。",
+    "loadDefaults": "新しい国のデフォルト祝日を追加しますか？",
+    "changeLanguage": "言語を変更しますか？",
+    "keepLanguage": "現在の言語を維持",
+    "confirm": "確認"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "confirm": "確認",
+    "yes": "はい",
+    "no": "いいえ"
+  }
+}

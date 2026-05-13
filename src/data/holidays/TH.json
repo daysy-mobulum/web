@@ -1,0 +1,17 @@
+[
+  { "name": "New Year's Day", "month": 1, "day": 1 },
+  { "name": "Makha Bucha Day", "dates": ["2025-02-12", "2026-03-03", "2027-02-20", "2028-02-10", "2029-02-27", "2030-02-16", "2031-02-05", "2032-02-24", "2033-02-13", "2034-03-04", "2035-02-21", "2036-02-11"] },
+  { "name": "Chakri Memorial Day", "month": 4, "day": 6 },
+  { "name": "Songkran", "month": 4, "day": 13 },
+  { "name": "Labour Day", "month": 5, "day": 1 },
+  { "name": "Coronation Day", "month": 5, "day": 4 },
+  { "name": "Visakha Bucha Day", "dates": ["2025-05-11", "2026-05-31", "2027-05-20", "2028-05-08", "2029-05-27", "2030-05-16", "2031-05-05", "2032-05-23", "2033-05-13", "2034-06-01", "2035-05-21", "2036-05-10"] },
+  { "name": "Queen Suthida's Birthday", "month": 6, "day": 3 },
+  { "name": "King's Birthday", "month": 7, "day": 28 },
+  { "name": "Queen Mother's Birthday", "month": 8, "day": 12 },
+  { "name": "King Bhumibol Memorial Day", "month": 10, "day": 13 },
+  { "name": "King Chulalongkorn Day", "month": 10, "day": 23 },
+  { "name": "King's Birthday (Rama IX)", "month": 12, "day": 5 },
+  { "name": "Constitution Day", "month": 12, "day": 10 },
+  { "name": "New Year's Eve", "month": 12, "day": 31 }
+]

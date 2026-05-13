@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "Eventos",
+    "settings": "Ajustes",
+    "about": "Acerca de"
+  },
+  "home": {
+    "title": "Mis eventos",
+    "noEvents": "No hay eventos. ¡Añade tu primer evento!",
+    "today": "¡Hoy!",
+    "daysLeft_one": "Queda {{count}} día",
+    "daysLeft_other": "Quedan {{count}} días",
+    "addEvent": "Añadir evento",
+    "filterByTag": "Filtrar por etiqueta",
+    "allTags": "Todas",
+    "editEvent": "Editar",
+    "deleteEvent": "Eliminar",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar este evento?"
+  },
+  "event": {
+    "name": "Nombre del evento",
+    "date": "Fecha",
+    "time": "Hora (opcional)",
+    "recurrence": "Recurrencia",
+    "recurrenceOptions": {
+      "none": "No se repite",
+      "weekly": "Semanal",
+      "monthly": "Mensual",
+      "yearly": "Anual"
+    },
+    "comment": "Comentario (opcional)",
+    "tags": "Etiquetas",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "addTag": "Añadir nueva etiqueta",
+    "createTag": "Crear etiqueta"
+  },
+  "onboarding": {
+    "welcome": "¡Bienvenido a Daysy!",
+    "subtitle": "Configuremos tus preferencias",
+    "country": "País",
+    "countryHint": "Selecciona tu país para los días festivos predeterminados",
+    "language": "Idioma",
+    "timezone": "Zona horaria",
+    "loadDefaults": "Cargar días festivos predeterminados para mi país",
+    "loadDefaultsHint": "Siempre puedes eliminarlos después",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "finish": "Finalizar",
+    "skip": "Omitir"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "appearance": "Apariencia",
+    "appearanceOptions": {
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "locale": "Configuración regional",
+    "country": "País",
+    "language": "Idioma",
+    "timezone": "Zona horaria",
+    "tags": "Etiquetas",
+    "manageTags": "Gestionar etiquetas",
+    "addTag": "Añadir etiqueta",
+    "deleteTag": "Eliminar",
+    "dataManagement": "Gestión de datos",
+    "exportData": "Exportar datos",
+    "importData": "Importar datos",
+    "importSuccess": "¡Datos importados correctamente!",
+    "importError": "Error al importar los datos. Formato de archivo no válido.",
+    "dangerZone": "Zona de peligro",
+    "deleteAll": "Eliminar todos los datos",
+    "deleteAllConfirm": "Esto eliminará permanentemente todos tus eventos, etiquetas y ajustes. Esta acción no se puede deshacer.",
+    "deleteAllButton": "Eliminar todo"
+  },
+  "about": {
+    "title": "Acerca de Daysy",
+    "description": "Daysy es un contador regresivo de eventos gratuito y centrado en la privacidad que te ayuda a seguir fechas importantes y días festivos.",
+    "problem": "¿Qué problema resuelve?",
+    "problemText": "Llevar un seguimiento de los próximos días festivos, aniversarios y fechas importantes en diferentes países puede ser complicado. Daysy ofrece una vista de cuenta regresiva simple y elegante para que nunca te pierdas lo que importa.",
+    "free": "Completamente gratuito",
+    "freeText": "Daysy es de uso gratuito, sin anuncios, sin suscripciones y sin costes ocultos.",
+    "privacy": "100% privado",
+    "privacyText": "Tus datos nunca salen de tu navegador. Sin rastreo, sin análisis, sin cookies, sin servidor. Todo se almacena localmente en tu dispositivo.",
+    "openSource": "Código abierto",
+    "openSourceText": "El código fuente está disponible públicamente en GitHub. Puedes inspeccionarlo, modificarlo y contribuir.",
+    "support": "Apoya el proyecto",
+    "supportText": "Si Daysy te resulta útil, considera apoyar su desarrollo:"
+  },
+  "countryChange": {
+    "title": "País cambiado",
+    "message": "Has cambiado tu país. Tus eventos existentes se conservarán.",
+    "loadDefaults": "¿Te gustaría añadir los días festivos predeterminados para el nuevo país?",
+    "changeLanguage": "¿Te gustaría cambiar el idioma?",
+    "keepLanguage": "Mantener el idioma actual",
+    "confirm": "Confirmar"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No"
+  }
+}

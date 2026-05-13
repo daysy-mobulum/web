@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "Ereignisse",
+    "settings": "Einstellungen",
+    "about": "Über"
+  },
+  "home": {
+    "title": "Meine Ereignisse",
+    "noEvents": "Noch keine Ereignisse. Füge dein erstes Ereignis hinzu!",
+    "today": "Heute!",
+    "daysLeft_one": "Noch {{count}} Tag",
+    "daysLeft_other": "Noch {{count}} Tage",
+    "addEvent": "Ereignis hinzufügen",
+    "filterByTag": "Nach Tag filtern",
+    "allTags": "Alle",
+    "editEvent": "Bearbeiten",
+    "deleteEvent": "Löschen",
+    "confirmDelete": "Möchtest du dieses Ereignis wirklich löschen?"
+  },
+  "event": {
+    "name": "Ereignisname",
+    "date": "Datum",
+    "time": "Uhrzeit (optional)",
+    "recurrence": "Wiederholung",
+    "recurrenceOptions": {
+      "none": "Keine Wiederholung",
+      "weekly": "Wöchentlich",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich"
+    },
+    "comment": "Kommentar (optional)",
+    "tags": "Tags",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "addTag": "Neuen Tag hinzufügen",
+    "createTag": "Tag erstellen"
+  },
+  "onboarding": {
+    "welcome": "Willkommen bei Daysy!",
+    "subtitle": "Lass uns deine Einstellungen festlegen",
+    "country": "Land",
+    "countryHint": "Wähle dein Land für Standardfeiertage",
+    "language": "Sprache",
+    "timezone": "Zeitzone",
+    "loadDefaults": "Standardfeiertage für mein Land laden",
+    "loadDefaultsHint": "Du kannst sie später jederzeit entfernen",
+    "next": "Weiter",
+    "back": "Zurück",
+    "finish": "Fertig",
+    "skip": "Überspringen"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "appearance": "Erscheinungsbild",
+    "appearanceOptions": {
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    },
+    "locale": "Gebietsschema",
+    "country": "Land",
+    "language": "Sprache",
+    "timezone": "Zeitzone",
+    "tags": "Tags",
+    "manageTags": "Tags verwalten",
+    "addTag": "Tag hinzufügen",
+    "deleteTag": "Löschen",
+    "dataManagement": "Datenverwaltung",
+    "exportData": "Daten exportieren",
+    "importData": "Daten importieren",
+    "importSuccess": "Daten erfolgreich importiert!",
+    "importError": "Import fehlgeschlagen. Ungültiges Dateiformat.",
+    "dangerZone": "Gefahrenzone",
+    "deleteAll": "Alle Daten löschen",
+    "deleteAllConfirm": "Dies löscht dauerhaft alle Ereignisse, Tags und Einstellungen. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteAllButton": "Alles löschen"
+  },
+  "about": {
+    "title": "Über Daysy",
+    "description": "Daysy ist ein kostenloser, datenschutzfreundlicher Countdown-Tracker, der dir hilft, wichtige Termine und Feiertage im Blick zu behalten.",
+    "problem": "Welches Problem löst es?",
+    "problemText": "Den Überblick über bevorstehende Feiertage, Jahrestage und wichtige Termine in verschiedenen Ländern zu behalten, kann schwierig sein. Daysy bietet eine einfache, schöne Countdown-Ansicht, damit du nie verpasst, was zählt.",
+    "free": "Komplett kostenlos",
+    "freeText": "Daysy ist kostenlos nutzbar – ohne Werbung, Abonnements oder versteckte Kosten.",
+    "privacy": "100% privat",
+    "privacyText": "Deine Daten verlassen nie deinen Browser. Kein Tracking, keine Analysen, keine Cookies, kein Server. Alles wird lokal auf deinem Gerät gespeichert.",
+    "openSource": "Open Source",
+    "openSourceText": "Der Quellcode ist öffentlich auf GitHub verfügbar. Du kannst ihn einsehen, ändern und beitragen.",
+    "support": "Projekt unterstützen",
+    "supportText": "Wenn du Daysy nützlich findest, unterstütze die Entwicklung:"
+  },
+  "countryChange": {
+    "title": "Land geändert",
+    "message": "Du hast dein Land geändert. Deine bestehenden Ereignisse werden beibehalten.",
+    "loadDefaults": "Möchtest du Standardfeiertage für das neue Land hinzufügen?",
+    "changeLanguage": "Möchtest du die Sprache ändern?",
+    "keepLanguage": "Aktuelle Sprache beibehalten",
+    "confirm": "Bestätigen"
+  },
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "yes": "Ja",
+    "no": "Nein"
+  }
+}
