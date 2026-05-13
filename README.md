@@ -18,6 +18,7 @@ Daysy is a free, privacy-first web application that helps you track upcoming eve
 - Dark/Light/System theme
 - Fully offline — all data stored in your browser
 - Data export/import (JSON)
+- Import events from Google Calendar / Apple Calendar (.ics files)
 - No accounts, no tracking, no ads
 
 ## Privacy

@@ -26,7 +26,9 @@ src/
 ├── types.ts                 # TypeScript type definitions
 └── utils/
     ├── countdown.ts         # Event date calculation logic
-    └── storage.ts           # localStorage CRUD operations
+    ├── icsParser.ts         # ICS/iCal file parser (Google/Apple Calendar import)
+    ├── storage.ts           # localStorage CRUD operations
+    └── theme.ts             # Dark/light mode application
 ```
 
 ## Key Design Decisions
