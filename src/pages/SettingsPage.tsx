@@ -6,6 +6,7 @@ import { supportedLanguages } from "../i18n";
 import { exportData, importData } from "../utils/storage";
 import { v4 as uuid } from "uuid";
 import type { AppearanceMode, Tag } from "../types";
+import { applyTheme } from "../utils/theme";
 import CountryChangeModal from "../components/CountryChangeModal";
 
 const TAG_COLORS = [
@@ -277,20 +278,4 @@ function SettingsPage() {
   );
 }
 
-function applyTheme(mode: AppearanceMode) {
-  const root = document.documentElement;
-  if (mode === "dark") {
-    root.classList.add("dark");
-  } else if (mode === "light") {
-    root.classList.remove("dark");
-  } else {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      root.classList.add("dark");
-    } else {
-      root.classList.remove("dark");
-    }
-  }
-}
-
-export { applyTheme };
 export default SettingsPage;
