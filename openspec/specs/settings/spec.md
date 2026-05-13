@@ -89,6 +89,39 @@ The system SHALL import previously exported JSON data.
 - THEN an error message is displayed
 - AND existing data is not modified
 
+### Requirement: ICS Calendar Import
+
+The system SHALL import events from standard ICS/iCal files (Google Calendar, Apple Calendar, etc.).
+
+#### Scenario: Valid ICS file with events
+
+- GIVEN the user selects a .ics file containing calendar events
+- WHEN the file is parsed
+- THEN VEVENT entries are converted to UserEvent objects
+- AND each event gets a unique UUID, extracted name, date, optional time
+- AND recurrence rules (YEARLY/MONTHLY/WEEKLY) are mapped to app recurrence types
+- AND imported events are added to the existing event list (not replacing)
+
+#### Scenario: ICS file with no events
+
+- GIVEN the user selects a .ics file with no VEVENT entries
+- WHEN the file is parsed
+- THEN a message indicates no events were found
+
+#### Scenario: Invalid/corrupted ICS file
+
+- GIVEN the user selects a file that is not valid ICS format
+- WHEN parsing is attempted
+- THEN an error message is displayed
+- AND no events are added
+
+#### Scenario: Events without dates are skipped
+
+- GIVEN an ICS file contains VEVENTs, some without DTSTART
+- WHEN the file is parsed
+- THEN only events with valid dates are imported
+- AND events without dates are silently skipped
+
 ### Requirement: Delete All Data
 
 The system SHALL allow complete data deletion with confirmation.

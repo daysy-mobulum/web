@@ -4,6 +4,7 @@ import { useApp } from "../context/AppContext";
 import { countries } from "../data/countries";
 import { supportedLanguages } from "../i18n";
 import { exportData, importData } from "../utils/storage";
+import { parseICSFile } from "../utils/icsParser";
 import { v4 as uuid } from "uuid";
 import type { AppearanceMode, Tag } from "../types";
 import { applyTheme } from "../utils/theme";
@@ -16,13 +17,14 @@ const TAG_COLORS = [
 
 function SettingsPage() {
   const { t, i18n } = useTranslation();
-  const { settings, tags, updateSettings, addTag, deleteTag, clearAllData, importAppData } = useApp();
+  const { settings, tags, updateSettings, addTag, deleteTag, clearAllData, importAppData, addEvent } = useApp();
   const [newTagName, setNewTagName] = useState("");
   const [importMsg, setImportMsg] = useState<{ type: "success" | "error"; text: string } | null>(null);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [showCountryChange, setShowCountryChange] = useState(false);
   const [pendingCountry, setPendingCountry] = useState("");
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const icsInputRef = useRef<HTMLInputElement>(null);
 
   function handleAppearanceChange(mode: AppearanceMode) {
     updateSettings({ appearance: mode });
@@ -84,6 +86,30 @@ function SettingsPage() {
         i18n.changeLanguage(result.settings.language);
       } else {
         setImportMsg({ type: "error", text: t("settings.importError") });
+      }
+    };
+    reader.readAsText(file);
+    e.target.value = "";
+  }
+
+  function handleICSImport(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      const result = parseICSFile(reader.result as string);
+      if (result.events.length > 0) {
+        for (const event of result.events) {
+          addEvent(event);
+        }
+        setImportMsg({
+          type: "success",
+          text: t("settings.icsImportSuccess", { count: result.events.length }),
+        });
+      } else if (result.errors.length > 0) {
+        setImportMsg({ type: "error", text: result.errors[0] });
+      } else {
+        setImportMsg({ type: "error", text: t("settings.icsImportEmpty") });
       }
     };
     reader.readAsText(file);
@@ -208,7 +234,7 @@ function SettingsPage() {
       {/* Data Management */}
       <section>
         <h2 className="text-lg font-semibold mb-3">{t("settings.dataManagement")}</h2>
-        <div className="flex gap-3">
+        <div className="flex gap-3 flex-wrap">
           <button
             onClick={handleExport}
             className="px-4 py-2 text-sm border rounded-lg border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700"
@@ -221,6 +247,12 @@ function SettingsPage() {
           >
             {t("settings.importData")}
           </button>
+          <button
+            onClick={() => icsInputRef.current?.click()}
+            className="px-4 py-2 text-sm border rounded-lg border-indigo-300 dark:border-indigo-600 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/20"
+          >
+            {t("settings.importICS")}
+          </button>
           <input
             ref={fileInputRef}
             type="file"
@@ -228,7 +260,15 @@ function SettingsPage() {
             onChange={handleImport}
             className="hidden"
           />
+          <input
+            ref={icsInputRef}
+            type="file"
+            accept=".ics,.ical"
+            onChange={handleICSImport}
+            className="hidden"
+          />
         </div>
+        <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">{t("settings.icsImportHint")}</p>
         {importMsg && (
           <p className={`mt-2 text-sm ${importMsg.type === "success" ? "text-green-600" : "text-red-600"}`}>
             {importMsg.text}

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useApp } from "../context/AppContext";
 import { v4 as uuid } from "uuid";
@@ -26,6 +26,14 @@ function EventForm({ event, onClose }: EventFormProps) {
   const [selectedTags, setSelectedTags] = useState<string[]>(event?.tags || []);
   const [newTagName, setNewTagName] = useState("");
   const [showNewTag, setShowNewTag] = useState(false);
+
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") onClose();
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [onClose]);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
