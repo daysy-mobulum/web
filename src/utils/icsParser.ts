@@ -22,7 +22,7 @@ export function parseICSFile(icsContent: string): ICSParseResult {
         if (event) {
           events.push(event);
         }
-      } catch (e) {
+      } catch {
         const summary = vevent.getFirstPropertyValue("summary");
         errors.push(`Failed to parse event: ${summary || "unknown"}`);
       }
