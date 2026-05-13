@@ -4,11 +4,13 @@ import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
 import SettingsPage from "./pages/SettingsPage";
 import AboutPage from "./pages/AboutPage";
+import OnboardingWrapper from "./components/OnboardingWrapper";
 
 function App() {
   return (
     <AppProvider>
       <BrowserRouter>
+        <OnboardingWrapper />
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
