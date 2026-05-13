@@ -8,7 +8,7 @@
     "title": "Meine Ereignisse",
     "noEvents": "Noch keine Ereignisse. Füge dein erstes Ereignis hinzu!",
     "today": "Heute!",
-    "daysLeft": "Noch {{count}} Tag",
+    "daysLeft_one": "Noch {{count}} Tag",
     "daysLeft_other": "Noch {{count}} Tage",
     "addEvent": "Ereignis hinzufügen",
     "filterByTag": "Nach Tag filtern",

@@ -8,7 +8,6 @@
     "title": "マイイベント",
     "noEvents": "イベントがありません。最初のイベントを追加しましょう！",
     "today": "今日！",
-    "daysLeft": "残り{{count}}日",
     "daysLeft_other": "残り{{count}}日",
     "addEvent": "イベントを追加",
     "filterByTag": "タグでフィルター",

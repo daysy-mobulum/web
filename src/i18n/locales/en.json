@@ -8,7 +8,7 @@
     "title": "My Events",
     "noEvents": "No events yet. Add your first event!",
     "today": "Today!",
-    "daysLeft": "{{count}} day left",
+    "daysLeft_one": "{{count}} day left",
     "daysLeft_other": "{{count}} days left",
     "addEvent": "Add Event",
     "filterByTag": "Filter by tag",

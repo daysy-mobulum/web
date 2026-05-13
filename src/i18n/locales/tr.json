@@ -8,7 +8,6 @@
     "title": "Etkinliklerim",
     "noEvents": "Henüz etkinlik yok. İlk etkinliğinizi ekleyin!",
     "today": "Bugün!",
-    "daysLeft": "{{count}} gün kaldı",
     "daysLeft_other": "{{count}} gün kaldı",
     "addEvent": "Etkinlik Ekle",
     "filterByTag": "Etikete göre filtrele",

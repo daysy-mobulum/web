@@ -8,7 +8,6 @@
     "title": "내 이벤트",
     "noEvents": "이벤트가 없습니다. 첫 번째 이벤트를 추가하세요!",
     "today": "오늘!",
-    "daysLeft": "{{count}}일 남음",
     "daysLeft_other": "{{count}}일 남음",
     "addEvent": "이벤트 추가",
     "filterByTag": "태그로 필터",

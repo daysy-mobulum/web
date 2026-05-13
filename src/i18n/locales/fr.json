@@ -8,7 +8,7 @@
     "title": "Mes événements",
     "noEvents": "Aucun événement. Ajoutez votre premier événement !",
     "today": "Aujourd'hui !",
-    "daysLeft": "{{count}} jour restant",
+    "daysLeft_one": "{{count}} jour restant",
     "daysLeft_other": "{{count}} jours restants",
     "addEvent": "Ajouter un événement",
     "filterByTag": "Filtrer par tag",

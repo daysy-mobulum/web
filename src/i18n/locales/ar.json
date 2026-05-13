@@ -8,7 +8,7 @@
     "title": "أحداثي",
     "noEvents": "لا توجد أحداث بعد. أضف حدثك الأول!",
     "today": "اليوم!",
-    "daysLeft": "يوم {{count}} متبقٍ",
+    "daysLeft_one": "يوم {{count}} متبقٍ",
     "daysLeft_other": "{{count}} أيام متبقية",
     "addEvent": "إضافة حدث",
     "filterByTag": "تصفية حسب الوسم",

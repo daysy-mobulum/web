@@ -8,7 +8,7 @@
     "title": "मेरे इवेंट",
     "noEvents": "अभी कोई इवेंट नहीं है। अपना पहला इवेंट जोड़ें!",
     "today": "आज!",
-    "daysLeft": "{{count}} दिन शेष",
+    "daysLeft_one": "{{count}} दिन शेष",
     "daysLeft_other": "{{count}} दिन शेष",
     "addEvent": "इवेंट जोड़ें",
     "filterByTag": "टैग से फ़िल्टर करें",

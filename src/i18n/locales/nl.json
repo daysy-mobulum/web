@@ -8,7 +8,7 @@
     "title": "Mijn evenementen",
     "noEvents": "Nog geen evenementen. Voeg je eerste evenement toe!",
     "today": "Vandaag!",
-    "daysLeft": "Nog {{count}} dag",
+    "daysLeft_one": "Nog {{count}} dag",
     "daysLeft_other": "Nog {{count}} dagen",
     "addEvent": "Evenement toevoegen",
     "filterByTag": "Filteren op tag",

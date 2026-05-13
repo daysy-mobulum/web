@@ -8,7 +8,6 @@
     "title": "我的事件",
     "noEvents": "暂无事件。添加你的第一个事件吧！",
     "today": "今天！",
-    "daysLeft": "还剩{{count}}天",
     "daysLeft_other": "还剩{{count}}天",
     "addEvent": "添加事件",
     "filterByTag": "按标签筛选",

@@ -10,4 +10,7 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: ["./src/test/setup.ts"],
   },
+  server: {
+    allowedHosts: ['localhost-vite.mobulum.xyz','daysy.mobulum.com', 'daysy-mobulum.github.io'],
+  },
 });
