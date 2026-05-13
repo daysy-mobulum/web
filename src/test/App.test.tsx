@@ -7,6 +7,26 @@ import HomePage from "../pages/HomePage";
 import SettingsPage from "../pages/SettingsPage";
 import AboutPage from "../pages/AboutPage";
 
+vi.mock("../context/AppContext", () => ({
+  useApp: () => ({
+    settings: { onboardingCompleted: true, country: "US", language: "en", timezone: "UTC", appearance: "system" },
+    events: [],
+    tags: [],
+    updateSettings: vi.fn(),
+    setEvents: vi.fn(),
+    addEvent: vi.fn(),
+    updateEvent: vi.fn(),
+    deleteEvent: vi.fn(),
+    setTags: vi.fn(),
+    addTag: vi.fn(),
+    deleteTag: vi.fn(),
+    importAppData: vi.fn(),
+    clearAllData: vi.fn(),
+    data: { settings: {}, events: [], tags: [] },
+  }),
+  AppProvider: ({ children }: { children: React.ReactNode }) => children,
+}));
+
 vi.mock("react-i18next", () => ({
   useTranslation: () => ({
     t: (key: string) => {
