@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "Eventos",
+    "settings": "Configurações",
+    "about": "Sobre"
+  },
+  "home": {
+    "title": "Meus eventos",
+    "noEvents": "Nenhum evento ainda. Adicione seu primeiro evento!",
+    "today": "Hoje!",
+    "daysLeft": "{{count}} dia restante",
+    "daysLeft_other": "{{count}} dias restantes",
+    "addEvent": "Adicionar evento",
+    "filterByTag": "Filtrar por tag",
+    "allTags": "Todas",
+    "editEvent": "Editar",
+    "deleteEvent": "Excluir",
+    "confirmDelete": "Tem certeza de que deseja excluir este evento?"
+  },
+  "event": {
+    "name": "Nome do evento",
+    "date": "Data",
+    "time": "Hora (opcional)",
+    "recurrence": "Recorrência",
+    "recurrenceOptions": {
+      "none": "Não se repete",
+      "weekly": "Semanal",
+      "monthly": "Mensal",
+      "yearly": "Anual"
+    },
+    "comment": "Comentário (opcional)",
+    "tags": "Tags",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "addTag": "Adicionar nova tag",
+    "createTag": "Criar tag"
+  },
+  "onboarding": {
+    "welcome": "Bem-vindo ao Daysy!",
+    "subtitle": "Vamos configurar suas preferências",
+    "country": "País",
+    "countryHint": "Selecione seu país para os feriados padrão",
+    "language": "Idioma",
+    "timezone": "Fuso horário",
+    "loadDefaults": "Carregar feriados padrão do meu país",
+    "loadDefaultsHint": "Você pode removê-los depois",
+    "next": "Próximo",
+    "back": "Voltar",
+    "finish": "Concluir",
+    "skip": "Pular"
+  },
+  "settings": {
+    "title": "Configurações",
+    "appearance": "Aparência",
+    "appearanceOptions": {
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "locale": "Localidade",
+    "country": "País",
+    "language": "Idioma",
+    "timezone": "Fuso horário",
+    "tags": "Tags",
+    "manageTags": "Gerenciar tags",
+    "addTag": "Adicionar tag",
+    "deleteTag": "Excluir",
+    "dataManagement": "Gerenciamento de dados",
+    "exportData": "Exportar dados",
+    "importData": "Importar dados",
+    "importSuccess": "Dados importados com sucesso!",
+    "importError": "Falha ao importar dados. Formato de arquivo inválido.",
+    "dangerZone": "Zona de perigo",
+    "deleteAll": "Excluir todos os dados",
+    "deleteAllConfirm": "Isso excluirá permanentemente todos os seus eventos, tags e configurações. Esta ação não pode ser desfeita.",
+    "deleteAllButton": "Excluir tudo"
+  },
+  "about": {
+    "title": "Sobre o Daysy",
+    "description": "Daysy é um contador regressivo de eventos gratuito e focado em privacidade que ajuda você a acompanhar datas importantes e feriados.",
+    "problem": "Que problema ele resolve?",
+    "problemText": "Acompanhar feriados, aniversários e datas importantes em diferentes países pode ser desafiador. Daysy oferece uma visualização de contagem regressiva simples e bonita para que você nunca perca o que importa.",
+    "free": "Completamente gratuito",
+    "freeText": "Daysy é gratuito, sem anúncios, sem assinaturas e sem custos ocultos.",
+    "privacy": "100% privado",
+    "privacyText": "Seus dados nunca saem do seu navegador. Sem rastreamento, sem análises, sem cookies, sem servidor. Tudo é armazenado localmente no seu dispositivo.",
+    "openSource": "Código aberto",
+    "openSourceText": "O código-fonte está disponível publicamente no GitHub. Você pode inspecionar, modificar e contribuir.",
+    "support": "Apoie o projeto",
+    "supportText": "Se você acha o Daysy útil, considere apoiar seu desenvolvimento:"
+  },
+  "countryChange": {
+    "title": "País alterado",
+    "message": "Você alterou seu país. Seus eventos existentes serão mantidos.",
+    "loadDefaults": "Gostaria de adicionar os feriados padrão para o novo país?",
+    "changeLanguage": "Gostaria de alterar o idioma?",
+    "keepLanguage": "Manter idioma atual",
+    "confirm": "Confirmar"
+  },
+  "common": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "yes": "Sim",
+    "no": "Não"
+  }
+}

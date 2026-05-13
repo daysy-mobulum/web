@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "Evenementen",
+    "settings": "Instellingen",
+    "about": "Over"
+  },
+  "home": {
+    "title": "Mijn evenementen",
+    "noEvents": "Nog geen evenementen. Voeg je eerste evenement toe!",
+    "today": "Vandaag!",
+    "daysLeft": "Nog {{count}} dag",
+    "daysLeft_other": "Nog {{count}} dagen",
+    "addEvent": "Evenement toevoegen",
+    "filterByTag": "Filteren op tag",
+    "allTags": "Alle",
+    "editEvent": "Bewerken",
+    "deleteEvent": "Verwijderen",
+    "confirmDelete": "Weet je zeker dat je dit evenement wilt verwijderen?"
+  },
+  "event": {
+    "name": "Naam evenement",
+    "date": "Datum",
+    "time": "Tijd (optioneel)",
+    "recurrence": "Herhaling",
+    "recurrenceOptions": {
+      "none": "Herhaalt niet",
+      "weekly": "Wekelijks",
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks"
+    },
+    "comment": "Opmerking (optioneel)",
+    "tags": "Tags",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "addTag": "Nieuwe tag toevoegen",
+    "createTag": "Tag aanmaken"
+  },
+  "onboarding": {
+    "welcome": "Welkom bij Daysy!",
+    "subtitle": "Laten we je voorkeuren instellen",
+    "country": "Land",
+    "countryHint": "Selecteer je land voor standaard feestdagen",
+    "language": "Taal",
+    "timezone": "Tijdzone",
+    "loadDefaults": "Standaard feestdagen voor mijn land laden",
+    "loadDefaultsHint": "Je kunt ze later altijd verwijderen",
+    "next": "Volgende",
+    "back": "Terug",
+    "finish": "Voltooien",
+    "skip": "Overslaan"
+  },
+  "settings": {
+    "title": "Instellingen",
+    "appearance": "Weergave",
+    "appearanceOptions": {
+      "light": "Licht",
+      "dark": "Donker",
+      "system": "Systeem"
+    },
+    "locale": "Taalinstelling",
+    "country": "Land",
+    "language": "Taal",
+    "timezone": "Tijdzone",
+    "tags": "Tags",
+    "manageTags": "Tags beheren",
+    "addTag": "Tag toevoegen",
+    "deleteTag": "Verwijderen",
+    "dataManagement": "Gegevensbeheer",
+    "exportData": "Gegevens exporteren",
+    "importData": "Gegevens importeren",
+    "importSuccess": "Gegevens succesvol geïmporteerd!",
+    "importError": "Importeren mislukt. Ongeldig bestandsformaat.",
+    "dangerZone": "Gevarenzone",
+    "deleteAll": "Alle gegevens verwijderen",
+    "deleteAllConfirm": "Dit verwijdert permanent al je evenementen, tags en instellingen. Deze actie kan niet ongedaan worden gemaakt.",
+    "deleteAllButton": "Alles verwijderen"
+  },
+  "about": {
+    "title": "Over Daysy",
+    "description": "Daysy is een gratis, privacy-eerst afteltool voor evenementen die je helpt belangrijke datums en feestdagen bij te houden.",
+    "problem": "Welk probleem lost het op?",
+    "problemText": "Het bijhouden van aankomende feestdagen, jubilea en belangrijke datums in verschillende landen kan lastig zijn. Daysy biedt een eenvoudige, mooie aftelweergave zodat je nooit mist wat belangrijk is.",
+    "free": "Volledig gratis",
+    "freeText": "Daysy is gratis te gebruiken zonder advertenties, abonnementen of verborgen kosten.",
+    "privacy": "100% privé",
+    "privacyText": "Je gegevens verlaten nooit je browser. Geen tracking, geen analytics, geen cookies, geen server. Alles wordt lokaal op je apparaat opgeslagen.",
+    "openSource": "Open source",
+    "openSourceText": "De broncode is openbaar beschikbaar op GitHub. Je kunt deze inzien, wijzigen en eraan bijdragen.",
+    "support": "Steun het project",
+    "supportText": "Als je Daysy nuttig vindt, overweeg dan de ontwikkeling te steunen:"
+  },
+  "countryChange": {
+    "title": "Land gewijzigd",
+    "message": "Je hebt je land gewijzigd. Je bestaande evenementen worden bewaard.",
+    "loadDefaults": "Wil je standaard feestdagen voor het nieuwe land toevoegen?",
+    "changeLanguage": "Wil je de taal wijzigen?",
+    "keepLanguage": "Huidige taal behouden",
+    "confirm": "Bevestigen"
+  },
+  "common": {
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "confirm": "Bevestigen",
+    "yes": "Ja",
+    "no": "Nee"
+  }
+}

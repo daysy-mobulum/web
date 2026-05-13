@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "事件",
+    "settings": "设置",
+    "about": "关于"
+  },
+  "home": {
+    "title": "我的事件",
+    "noEvents": "暂无事件。添加你的第一个事件吧！",
+    "today": "今天！",
+    "daysLeft": "还剩{{count}}天",
+    "daysLeft_other": "还剩{{count}}天",
+    "addEvent": "添加事件",
+    "filterByTag": "按标签筛选",
+    "allTags": "全部",
+    "editEvent": "编辑",
+    "deleteEvent": "删除",
+    "confirmDelete": "确定要删除此事件吗？"
+  },
+  "event": {
+    "name": "事件名称",
+    "date": "日期",
+    "time": "时间（可选）",
+    "recurrence": "重复",
+    "recurrenceOptions": {
+      "none": "不重复",
+      "weekly": "每周",
+      "monthly": "每月",
+      "yearly": "每年"
+    },
+    "comment": "备注（可选）",
+    "tags": "标签",
+    "save": "保存",
+    "cancel": "取消",
+    "addTag": "添加新标签",
+    "createTag": "创建标签"
+  },
+  "onboarding": {
+    "welcome": "欢迎使用 Daysy！",
+    "subtitle": "让我们设置你的偏好",
+    "country": "国家",
+    "countryHint": "选择你的国家以加载默认节假日",
+    "language": "语言",
+    "timezone": "时区",
+    "loadDefaults": "加载我所在国家的默认节假日",
+    "loadDefaultsHint": "你随时可以删除它们",
+    "next": "下一步",
+    "back": "返回",
+    "finish": "完成",
+    "skip": "跳过"
+  },
+  "settings": {
+    "title": "设置",
+    "appearance": "外观",
+    "appearanceOptions": {
+      "light": "浅色",
+      "dark": "深色",
+      "system": "跟随系统"
+    },
+    "locale": "区域设置",
+    "country": "国家",
+    "language": "语言",
+    "timezone": "时区",
+    "tags": "标签",
+    "manageTags": "管理标签",
+    "addTag": "添加标签",
+    "deleteTag": "删除",
+    "dataManagement": "数据管理",
+    "exportData": "导出数据",
+    "importData": "导入数据",
+    "importSuccess": "数据导入成功！",
+    "importError": "数据导入失败。文件格式无效。",
+    "dangerZone": "危险区域",
+    "deleteAll": "删除所有数据",
+    "deleteAllConfirm": "这将永久删除你所有的事件、标签和设置。此操作无法撤消。",
+    "deleteAllButton": "删除全部"
+  },
+  "about": {
+    "title": "关于 Daysy",
+    "description": "Daysy 是一款免费、注重隐私的事件倒计时工具，帮助你追踪重要日期和节假日。",
+    "problem": "它解决什么问题？",
+    "problemText": "追踪不同国家的节假日、纪念日和重要日期可能很困难。Daysy 提供简洁美观的倒计时视图，让你不错过任何重要时刻。",
+    "free": "完全免费",
+    "freeText": "Daysy 完全免费使用，没有广告、没有订阅、没有隐藏费用。",
+    "privacy": "100% 隐私",
+    "privacyText": "你的数据永远不会离开你的浏览器。没有追踪、没有分析、没有 Cookie、没有服务器。所有数据都存储在你的设备本地。",
+    "openSource": "开源",
+    "openSourceText": "源代码在 GitHub 上公开。你可以查看、修改和贡献代码。",
+    "support": "支持项目",
+    "supportText": "如果你觉得 Daysy 有用，请考虑支持它的开发："
+  },
+  "countryChange": {
+    "title": "国家已更改",
+    "message": "你已更改国家。现有事件将被保留。",
+    "loadDefaults": "是否要添加新国家的默认节假日？",
+    "changeLanguage": "是否要更改语言？",
+    "keepLanguage": "保持当前语言",
+    "confirm": "确认"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "confirm": "确认",
+    "yes": "是",
+    "no": "否"
+  }
+}

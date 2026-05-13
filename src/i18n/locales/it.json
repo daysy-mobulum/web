@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "Eventi",
+    "settings": "Impostazioni",
+    "about": "Info"
+  },
+  "home": {
+    "title": "I miei eventi",
+    "noEvents": "Nessun evento. Aggiungi il tuo primo evento!",
+    "today": "Oggi!",
+    "daysLeft": "{{count}} giorno rimanente",
+    "daysLeft_other": "{{count}} giorni rimanenti",
+    "addEvent": "Aggiungi evento",
+    "filterByTag": "Filtra per tag",
+    "allTags": "Tutti",
+    "editEvent": "Modifica",
+    "deleteEvent": "Elimina",
+    "confirmDelete": "Sei sicuro di voler eliminare questo evento?"
+  },
+  "event": {
+    "name": "Nome evento",
+    "date": "Data",
+    "time": "Ora (facoltativo)",
+    "recurrence": "Ricorrenza",
+    "recurrenceOptions": {
+      "none": "Non si ripete",
+      "weekly": "Settimanale",
+      "monthly": "Mensile",
+      "yearly": "Annuale"
+    },
+    "comment": "Commento (facoltativo)",
+    "tags": "Tag",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "addTag": "Aggiungi nuovo tag",
+    "createTag": "Crea tag"
+  },
+  "onboarding": {
+    "welcome": "Benvenuto su Daysy!",
+    "subtitle": "Configuriamo le tue preferenze",
+    "country": "Paese",
+    "countryHint": "Seleziona il tuo paese per le festività predefinite",
+    "language": "Lingua",
+    "timezone": "Fuso orario",
+    "loadDefaults": "Carica le festività predefinite per il mio paese",
+    "loadDefaultsHint": "Puoi sempre rimuoverle in seguito",
+    "next": "Avanti",
+    "back": "Indietro",
+    "finish": "Fine",
+    "skip": "Salta"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "appearance": "Aspetto",
+    "appearanceOptions": {
+      "light": "Chiaro",
+      "dark": "Scuro",
+      "system": "Sistema"
+    },
+    "locale": "Localizzazione",
+    "country": "Paese",
+    "language": "Lingua",
+    "timezone": "Fuso orario",
+    "tags": "Tag",
+    "manageTags": "Gestisci tag",
+    "addTag": "Aggiungi tag",
+    "deleteTag": "Elimina",
+    "dataManagement": "Gestione dati",
+    "exportData": "Esporta dati",
+    "importData": "Importa dati",
+    "importSuccess": "Dati importati con successo!",
+    "importError": "Importazione fallita. Formato file non valido.",
+    "dangerZone": "Zona pericolosa",
+    "deleteAll": "Elimina tutti i dati",
+    "deleteAllConfirm": "Questo eliminerà permanentemente tutti i tuoi eventi, tag e impostazioni. Questa azione non può essere annullata.",
+    "deleteAllButton": "Elimina tutto"
+  },
+  "about": {
+    "title": "Info su Daysy",
+    "description": "Daysy è un conto alla rovescia per eventi gratuito e attento alla privacy che ti aiuta a tenere traccia delle date importanti e delle festività.",
+    "problem": "Quale problema risolve?",
+    "problemText": "Tenere traccia delle prossime festività, anniversari e date importanti in diversi paesi può essere difficile. Daysy offre una vista del conto alla rovescia semplice e bella per non perdere mai ciò che conta.",
+    "free": "Completamente gratuito",
+    "freeText": "Daysy è gratuito, senza pubblicità, abbonamenti o costi nascosti.",
+    "privacy": "100% privato",
+    "privacyText": "I tuoi dati non lasciano mai il tuo browser. Nessun tracciamento, nessuna analisi, nessun cookie, nessun server. Tutto è memorizzato localmente sul tuo dispositivo.",
+    "openSource": "Open Source",
+    "openSourceText": "Il codice sorgente è disponibile pubblicamente su GitHub. Puoi ispezionarlo, modificarlo e contribuire.",
+    "support": "Supporta il progetto",
+    "supportText": "Se trovi Daysy utile, considera di supportare il suo sviluppo:"
+  },
+  "countryChange": {
+    "title": "Paese cambiato",
+    "message": "Hai cambiato il tuo paese. I tuoi eventi esistenti verranno mantenuti.",
+    "loadDefaults": "Vuoi aggiungere le festività predefinite per il nuovo paese?",
+    "changeLanguage": "Vuoi cambiare la lingua?",
+    "keepLanguage": "Mantieni la lingua attuale",
+    "confirm": "Conferma"
+  },
+  "common": {
+    "save": "Salva",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "yes": "Sì",
+    "no": "No"
+  }
+}

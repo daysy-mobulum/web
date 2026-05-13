@@ -1,6 +1,9 @@
 import { NavLink, Outlet } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Layout() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen flex flex-col">
       <header className="border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 sticky top-0 z-50">
@@ -21,7 +24,7 @@ function Layout() {
                 `text-sm font-medium ${isActive ? "text-indigo-600 dark:text-indigo-400" : "text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200"}`
               }
             >
-              Events
+              {t("nav.events")}
             </NavLink>
             <NavLink
               to="/settings"
@@ -29,7 +32,7 @@ function Layout() {
                 `text-sm font-medium ${isActive ? "text-indigo-600 dark:text-indigo-400" : "text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200"}`
               }
             >
-              Settings
+              {t("nav.settings")}
             </NavLink>
             <NavLink
               to="/about"
@@ -37,7 +40,7 @@ function Layout() {
                 `text-sm font-medium ${isActive ? "text-indigo-600 dark:text-indigo-400" : "text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200"}`
               }
             >
-              About
+              {t("nav.about")}
             </NavLink>
           </nav>
         </div>

@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "이벤트",
+    "settings": "설정",
+    "about": "정보"
+  },
+  "home": {
+    "title": "내 이벤트",
+    "noEvents": "이벤트가 없습니다. 첫 번째 이벤트를 추가하세요!",
+    "today": "오늘!",
+    "daysLeft": "{{count}}일 남음",
+    "daysLeft_other": "{{count}}일 남음",
+    "addEvent": "이벤트 추가",
+    "filterByTag": "태그로 필터",
+    "allTags": "전체",
+    "editEvent": "편집",
+    "deleteEvent": "삭제",
+    "confirmDelete": "이 이벤트를 삭제하시겠습니까?"
+  },
+  "event": {
+    "name": "이벤트 이름",
+    "date": "날짜",
+    "time": "시간 (선택사항)",
+    "recurrence": "반복",
+    "recurrenceOptions": {
+      "none": "반복 안 함",
+      "weekly": "매주",
+      "monthly": "매월",
+      "yearly": "매년"
+    },
+    "comment": "메모 (선택사항)",
+    "tags": "태그",
+    "save": "저장",
+    "cancel": "취소",
+    "addTag": "새 태그 추가",
+    "createTag": "태그 만들기"
+  },
+  "onboarding": {
+    "welcome": "Daysy에 오신 것을 환영합니다!",
+    "subtitle": "환경설정을 시작하겠습니다",
+    "country": "국가",
+    "countryHint": "기본 공휴일을 위해 국가를 선택하세요",
+    "language": "언어",
+    "timezone": "시간대",
+    "loadDefaults": "내 국가의 기본 공휴일 불러오기",
+    "loadDefaultsHint": "나중에 언제든지 삭제할 수 있습니다",
+    "next": "다음",
+    "back": "뒤로",
+    "finish": "완료",
+    "skip": "건너뛰기"
+  },
+  "settings": {
+    "title": "설정",
+    "appearance": "테마",
+    "appearanceOptions": {
+      "light": "라이트",
+      "dark": "다크",
+      "system": "시스템"
+    },
+    "locale": "로케일",
+    "country": "국가",
+    "language": "언어",
+    "timezone": "시간대",
+    "tags": "태그",
+    "manageTags": "태그 관리",
+    "addTag": "태그 추가",
+    "deleteTag": "삭제",
+    "dataManagement": "데이터 관리",
+    "exportData": "데이터 내보내기",
+    "importData": "데이터 가져오기",
+    "importSuccess": "데이터를 성공적으로 가져왔습니다!",
+    "importError": "데이터 가져오기에 실패했습니다. 잘못된 파일 형식입니다.",
+    "dangerZone": "위험 구역",
+    "deleteAll": "모든 데이터 삭제",
+    "deleteAllConfirm": "모든 이벤트, 태그 및 설정이 영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없습니다.",
+    "deleteAllButton": "모두 삭제"
+  },
+  "about": {
+    "title": "Daysy 정보",
+    "description": "Daysy는 중요한 날짜와 공휴일을 추적하는 무료 프라이버시 중심 이벤트 카운트다운 트래커입니다.",
+    "problem": "어떤 문제를 해결하나요?",
+    "problemText": "여러 국가의 공휴일, 기념일, 중요한 날짜를 추적하는 것은 어려울 수 있습니다. Daysy는 심플하고 아름다운 카운트다운 뷰를 제공하여 중요한 날을 놓치지 않도록 합니다.",
+    "free": "완전 무료",
+    "freeText": "Daysy는 광고, 구독, 숨겨진 비용 없이 무료로 사용할 수 있습니다.",
+    "privacy": "100% 프라이버시",
+    "privacyText": "데이터는 브라우저를 벗어나지 않습니다. 추적, 분석, 쿠키, 서버가 없습니다. 모든 것이 기기에 로컬로 저장됩니다.",
+    "openSource": "오픈 소스",
+    "openSourceText": "소스 코드는 GitHub에 공개되어 있습니다. 검토, 수정 및 기여가 가능합니다.",
+    "support": "프로젝트 지원",
+    "supportText": "Daysy가 유용하다면 개발 지원을 고려해 주세요:"
+  },
+  "countryChange": {
+    "title": "국가가 변경되었습니다",
+    "message": "국가를 변경했습니다. 기존 이벤트는 유지됩니다.",
+    "loadDefaults": "새 국가의 기본 공휴일을 추가하시겠습니까?",
+    "changeLanguage": "언어를 변경하시겠습니까?",
+    "keepLanguage": "현재 언어 유지",
+    "confirm": "확인"
+  },
+  "common": {
+    "save": "저장",
+    "cancel": "취소",
+    "close": "닫기",
+    "confirm": "확인",
+    "yes": "예",
+    "no": "아니오"
+  }
+}

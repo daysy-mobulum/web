@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "events": "Etkinlikler",
+    "settings": "Ayarlar",
+    "about": "Hakkında"
+  },
+  "home": {
+    "title": "Etkinliklerim",
+    "noEvents": "Henüz etkinlik yok. İlk etkinliğinizi ekleyin!",
+    "today": "Bugün!",
+    "daysLeft": "{{count}} gün kaldı",
+    "daysLeft_other": "{{count}} gün kaldı",
+    "addEvent": "Etkinlik Ekle",
+    "filterByTag": "Etikete göre filtrele",
+    "allTags": "Tümü",
+    "editEvent": "Düzenle",
+    "deleteEvent": "Sil",
+    "confirmDelete": "Bu etkinliği silmek istediğinizden emin misiniz?"
+  },
+  "event": {
+    "name": "Etkinlik adı",
+    "date": "Tarih",
+    "time": "Saat (isteğe bağlı)",
+    "recurrence": "Tekrar",
+    "recurrenceOptions": {
+      "none": "Tekrarlanmaz",
+      "weekly": "Haftalık",
+      "monthly": "Aylık",
+      "yearly": "Yıllık"
+    },
+    "comment": "Yorum (isteğe bağlı)",
+    "tags": "Etiketler",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "addTag": "Yeni etiket ekle",
+    "createTag": "Etiket oluştur"
+  },
+  "onboarding": {
+    "welcome": "Daysy'ye hoş geldiniz!",
+    "subtitle": "Tercihlerinizi ayarlayalım",
+    "country": "Ülke",
+    "countryHint": "Varsayılan tatiller için ülkenizi seçin",
+    "language": "Dil",
+    "timezone": "Saat dilimi",
+    "loadDefaults": "Ülkem için varsayılan tatilleri yükle",
+    "loadDefaultsHint": "Daha sonra istediğiniz zaman kaldırabilirsiniz",
+    "next": "İleri",
+    "back": "Geri",
+    "finish": "Bitir",
+    "skip": "Atla"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "appearance": "Görünüm",
+    "appearanceOptions": {
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem"
+    },
+    "locale": "Yerel ayar",
+    "country": "Ülke",
+    "language": "Dil",
+    "timezone": "Saat dilimi",
+    "tags": "Etiketler",
+    "manageTags": "Etiketleri Yönet",
+    "addTag": "Etiket Ekle",
+    "deleteTag": "Sil",
+    "dataManagement": "Veri Yönetimi",
+    "exportData": "Verileri Dışa Aktar",
+    "importData": "Verileri İçe Aktar",
+    "importSuccess": "Veriler başarıyla içe aktarıldı!",
+    "importError": "Veri içe aktarma başarısız. Geçersiz dosya biçimi.",
+    "dangerZone": "Tehlikeli Bölge",
+    "deleteAll": "Tüm Verileri Sil",
+    "deleteAllConfirm": "Bu işlem tüm etkinliklerinizi, etiketlerinizi ve ayarlarınızı kalıcı olarak silecektir. Bu işlem geri alınamaz.",
+    "deleteAllButton": "Her Şeyi Sil"
+  },
+  "about": {
+    "title": "Daysy Hakkında",
+    "description": "Daysy, önemli tarihleri ve tatilleri takip etmenize yardımcı olan ücretsiz, gizlilik odaklı bir etkinlik geri sayım takipçisidir.",
+    "problem": "Hangi sorunu çözer?",
+    "problemText": "Farklı ülkelerdeki yaklaşan tatilleri, yıl dönümlerini ve önemli tarihleri takip etmek zor olabilir. Daysy, önemli olanı asla kaçırmamanız için basit ve güzel bir geri sayım görünümü sunar.",
+    "free": "Tamamen Ücretsiz",
+    "freeText": "Daysy reklamsız, aboneliksiz ve gizli maliyetsiz olarak ücretsiz kullanılabilir.",
+    "privacy": "100% Gizli",
+    "privacyText": "Verileriniz asla tarayıcınızdan çıkmaz. İzleme yok, analitik yok, çerez yok, sunucu yok. Her şey cihazınızda yerel olarak saklanır.",
+    "openSource": "Açık Kaynak",
+    "openSourceText": "Kaynak kodu GitHub'da herkese açıktır. İnceleyebilir, değiştirebilir ve katkıda bulunabilirsiniz.",
+    "support": "Projeyi Destekle",
+    "supportText": "Daysy'yi faydalı buluyorsanız, geliştirilmesini desteklemeyi düşünün:"
+  },
+  "countryChange": {
+    "title": "Ülke Değiştirildi",
+    "message": "Ülkenizi değiştirdiniz. Mevcut etkinlikleriniz korunacaktır.",
+    "loadDefaults": "Yeni ülke için varsayılan tatilleri eklemek ister misiniz?",
+    "changeLanguage": "Dili değiştirmek ister misiniz?",
+    "keepLanguage": "Mevcut dili koru",
+    "confirm": "Onayla"
+  },
+  "common": {
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "yes": "Evet",
+    "no": "Hayır"
+  }
+}
