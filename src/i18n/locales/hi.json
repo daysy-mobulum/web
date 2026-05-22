@@ -8,8 +8,8 @@
     "title": "मेरे इवेंट",
     "noEvents": "अभी कोई इवेंट नहीं है। अपना पहला इवेंट जोड़ें!",
     "today": "आज!",
-    "daysLeft_one": "{{count}} दिन शेष",
-    "daysLeft_other": "{{count}} दिन शेष",
+    "daysLeft_one": "{{count}} दिन में",
+    "daysLeft_other": "{{count}} दिन में",
     "addEvent": "इवेंट जोड़ें",
     "filterByTag": "टैग से फ़िल्टर करें",
     "allTags": "सभी",
@@ -25,7 +25,12 @@
     "recurrenceOptions": {
       "none": "दोहराता नहीं",
       "weekly": "साप्ताहिक",
+      "biweekly": "हर 2 सप्ताह",
+      "triweekly": "हर 3 सप्ताह",
       "monthly": "मासिक",
+      "bimonthly": "हर 2 महीने",
+      "trimonthly": "हर 3 महीने",
+      "quarterly": "हर तिमाही",
       "yearly": "वार्षिक"
     },
     "comment": "टिप्पणी (वैकल्पिक)",

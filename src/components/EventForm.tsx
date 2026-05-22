@@ -130,7 +130,12 @@ function EventForm({ event, onClose }: EventFormProps) {
             >
               <option value="none">{t("event.recurrenceOptions.none")}</option>
               <option value="weekly">{t("event.recurrenceOptions.weekly")}</option>
+              <option value="biweekly">{t("event.recurrenceOptions.biweekly")}</option>
+              <option value="triweekly">{t("event.recurrenceOptions.triweekly")}</option>
               <option value="monthly">{t("event.recurrenceOptions.monthly")}</option>
+              <option value="bimonthly">{t("event.recurrenceOptions.bimonthly")}</option>
+              <option value="trimonthly">{t("event.recurrenceOptions.trimonthly")}</option>
+              <option value="quarterly">{t("event.recurrenceOptions.quarterly")}</option>
               <option value="yearly">{t("event.recurrenceOptions.yearly")}</option>
             </select>
           </div>

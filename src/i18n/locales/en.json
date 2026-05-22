@@ -8,8 +8,8 @@
     "title": "My Events",
     "noEvents": "No events yet. Add your first event!",
     "today": "Today!",
-    "daysLeft_one": "{{count}} day left",
-    "daysLeft_other": "{{count}} days left",
+    "daysLeft_one": "in {{count}} day",
+    "daysLeft_other": "in {{count}} days",
     "addEvent": "Add Event",
     "filterByTag": "Filter by tag",
     "allTags": "All",
@@ -25,7 +25,12 @@
     "recurrenceOptions": {
       "none": "Does not repeat",
       "weekly": "Weekly",
+      "biweekly": "Every 2 weeks",
+      "triweekly": "Every 3 weeks",
       "monthly": "Monthly",
+      "bimonthly": "Every 2 months",
+      "trimonthly": "Every 3 months",
+      "quarterly": "Every quarter",
       "yearly": "Yearly"
     },
     "comment": "Comment (optional)",

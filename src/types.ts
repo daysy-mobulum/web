@@ -1,4 +1,4 @@
-export type RecurrenceType = "none" | "weekly" | "monthly" | "yearly";
+export type RecurrenceType = "none" | "weekly" | "biweekly" | "triweekly" | "monthly" | "bimonthly" | "trimonthly" | "quarterly" | "yearly";
 
 export interface UserEvent {
   id: string;
