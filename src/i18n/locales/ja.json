@@ -8,7 +8,7 @@
     "title": "マイイベント",
     "noEvents": "イベントがありません。最初のイベントを追加しましょう！",
     "today": "今日！",
-    "daysLeft_other": "残り{{count}}日",
+    "daysLeft_other": "あと{{count}}日",
     "addEvent": "イベントを追加",
     "filterByTag": "タグでフィルター",
     "allTags": "すべて",
@@ -24,7 +24,12 @@
     "recurrenceOptions": {
       "none": "繰り返しなし",
       "weekly": "毎週",
+      "biweekly": "2週間ごと",
+      "triweekly": "3週間ごと",
       "monthly": "毎月",
+      "bimonthly": "2ヶ月ごと",
+      "trimonthly": "3ヶ月ごと",
+      "quarterly": "四半期ごと",
       "yearly": "毎年"
     },
     "comment": "コメント（任意）",

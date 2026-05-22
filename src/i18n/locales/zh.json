@@ -8,7 +8,7 @@
     "title": "我的事件",
     "noEvents": "暂无事件。添加你的第一个事件吧！",
     "today": "今天！",
-    "daysLeft_other": "还剩{{count}}天",
+    "daysLeft_other": "{{count}}天后",
     "addEvent": "添加事件",
     "filterByTag": "按标签筛选",
     "allTags": "全部",
@@ -24,7 +24,12 @@
     "recurrenceOptions": {
       "none": "不重复",
       "weekly": "每周",
+      "biweekly": "每两周",
+      "triweekly": "每三周",
       "monthly": "每月",
+      "bimonthly": "每两个月",
+      "trimonthly": "每三个月",
+      "quarterly": "每季度",
       "yearly": "每年"
     },
     "comment": "备注（可选）",

@@ -42,12 +42,32 @@ export function getNextOccurrence(event: UserEvent, today: Date = new Date()): D
     return new Date(todayNorm.getFullYear(), todayNorm.getMonth() + 1, day);
   }
 
-  if (event.recurrence === "weekly") {
-    const eventDay = eventDate.getDay();
-    const todayDay = todayNorm.getDay();
-    let diff = eventDay - todayDay;
-    if (diff < 0) diff += 7;
-    return new Date(todayNorm.getTime() + diff * 24 * 60 * 60 * 1000);
+  if (event.recurrence === "weekly" || event.recurrence === "biweekly" || event.recurrence === "triweekly") {
+    const intervalWeeks = event.recurrence === "triweekly" ? 3 : event.recurrence === "biweekly" ? 2 : 1;
+    const intervalMs = intervalWeeks * 7 * 24 * 60 * 60 * 1000;
+    const diffMs = todayNorm.getTime() - eventDate.getTime();
+    if (diffMs <= 0) return eventDate;
+    const periodsPassed = Math.floor(diffMs / intervalMs);
+    const next = new Date(eventDate.getTime() + periodsPassed * intervalMs);
+    if (next >= todayNorm) return next;
+    return new Date(next.getTime() + intervalMs);
+  }
+
+  if (event.recurrence === "bimonthly" || event.recurrence === "trimonthly" || event.recurrence === "quarterly") {
+    const intervalMonths = event.recurrence === "quarterly" ? 4 : event.recurrence === "trimonthly" ? 3 : 2;
+    const day = eventDate.getDate();
+    // Find next occurrence from eventDate forward
+    const eventStartMonth = eventDate.getFullYear() * 12 + eventDate.getMonth();
+    const todayMonth = todayNorm.getFullYear() * 12 + todayNorm.getMonth();
+    const monthsDiff = todayMonth - eventStartMonth;
+    const periodsPassed = Math.floor(monthsDiff / intervalMonths);
+    let candidateMonths = eventStartMonth + periodsPassed * intervalMonths;
+    let candidate = new Date(Math.floor(candidateMonths / 12), candidateMonths % 12, day);
+    if (candidate < todayNorm) {
+      candidateMonths += intervalMonths;
+      candidate = new Date(Math.floor(candidateMonths / 12), candidateMonths % 12, day);
+    }
+    return candidate;
   }
 
   return null;

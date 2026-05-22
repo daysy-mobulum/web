@@ -8,7 +8,7 @@
     "title": "Etkinliklerim",
     "noEvents": "Henüz etkinlik yok. İlk etkinliğinizi ekleyin!",
     "today": "Bugün!",
-    "daysLeft_other": "{{count}} gün kaldı",
+    "daysLeft_other": "{{count}} gün sonra",
     "addEvent": "Etkinlik Ekle",
     "filterByTag": "Etikete göre filtrele",
     "allTags": "Tümü",
@@ -24,7 +24,12 @@
     "recurrenceOptions": {
       "none": "Tekrarlanmaz",
       "weekly": "Haftalık",
+      "biweekly": "2 haftada bir",
+      "triweekly": "3 haftada bir",
       "monthly": "Aylık",
+      "bimonthly": "2 ayda bir",
+      "trimonthly": "3 ayda bir",
+      "quarterly": "3 ayda bir (çeyrek)",
       "yearly": "Yıllık"
     },
     "comment": "Yorum (isteğe bağlı)",

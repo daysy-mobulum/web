@@ -8,7 +8,7 @@
     "title": "내 이벤트",
     "noEvents": "이벤트가 없습니다. 첫 번째 이벤트를 추가하세요!",
     "today": "오늘!",
-    "daysLeft_other": "{{count}}일 남음",
+    "daysLeft_other": "{{count}}일 후",
     "addEvent": "이벤트 추가",
     "filterByTag": "태그로 필터",
     "allTags": "전체",
@@ -24,7 +24,12 @@
     "recurrenceOptions": {
       "none": "반복 안 함",
       "weekly": "매주",
+      "biweekly": "2주마다",
+      "triweekly": "3주마다",
       "monthly": "매월",
+      "bimonthly": "2개월마다",
+      "trimonthly": "3개월마다",
+      "quarterly": "분기마다",
       "yearly": "매년"
     },
     "comment": "메모 (선택사항)",

@@ -8,8 +8,8 @@
     "title": "Mijn evenementen",
     "noEvents": "Nog geen evenementen. Voeg je eerste evenement toe!",
     "today": "Vandaag!",
-    "daysLeft_one": "Nog {{count}} dag",
-    "daysLeft_other": "Nog {{count}} dagen",
+    "daysLeft_one": "over {{count}} dag",
+    "daysLeft_other": "over {{count}} dagen",
     "addEvent": "Evenement toevoegen",
     "filterByTag": "Filteren op tag",
     "allTags": "Alle",
@@ -25,7 +25,12 @@
     "recurrenceOptions": {
       "none": "Herhaalt niet",
       "weekly": "Wekelijks",
+      "biweekly": "Elke 2 weken",
+      "triweekly": "Elke 3 weken",
       "monthly": "Maandelijks",
+      "bimonthly": "Elke 2 maanden",
+      "trimonthly": "Elke 3 maanden",
+      "quarterly": "Elk kwartaal",
       "yearly": "Jaarlijks"
     },
     "comment": "Opmerking (optioneel)",
